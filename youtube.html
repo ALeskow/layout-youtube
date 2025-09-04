@@ -3,55 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <title>YouTube Clone - Watch Video</title>
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="assets/style.css">
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
         </style>
 </head>
 <body>
     <header>
-        <div class="menu"><img src="/assets/Left.png" alt="botão do menu e logo do YouTube"></div>
-        <div class="search-bar"><img src="/assets/Center.png" alt="barra de pesquisa"></div>
-        <div class="actions"><img src="/assets/Right.png" alt="botão de criar vídeo, notificações e perfil do usuário"></div>
+        <div class="menu">
+            <div class="menu-icon"><img src="assets/menu.png" alt="botão de menu"></div>
+            <div class="youtube"><img src="assets/youtube.png" alt="botão de logo do YouTube para voltar à página inicial"></div>
+        </div>
+
+        <div class="search-bar"><img src="assets/Rectangle 1.png" alt="barra de pesquisa">
+            <div class="search-button">
+                <div class="search-icon">
+                    <img src="assets/search.png" alt="botão de pesquisa">
+                </div>
+            </div>
+        </div>
+
+        <div class="actions">
+            <div class="create-video"><img src="assets/video.png" alt="botão de criar vídeo"></div>
+            <div class="notifications"><img src="assets/bell.png" alt="botão de ativar notificações"></div>
+            <div class="profile"><img src="assets/Avatar.png" alt="ir para o perfil do usuário"></div>
+        </div>
     </header>
 
+<div class="content">
     <div class="container">
         <main class="main-video">
             <iframe src="https://www.youtube.com/embed/zGPS2BilrJI?si=0fWn-fe-hkiIBDj2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div class="video-title">TUDO o que um DESENVOLVEDOR FRONT-END deve saber! | Getting Started #23</div>
-            <div class="video-actions"><img src="/assets/Video Actions.png" alt="barra com nome e imagem do canal, botão de inscrição e botões gostei, não gostei, compartilhar e download"></div>
+
+            <div class="video-actions">
+                <div class="channel"><img src="assets/Channel Infos.png" alt="botão do canal"></div>
+                <div class="subscribe"><img src="assets/Subscribe Button.png" alt="botão de inscrever no canal"></div>
+                <div class="like"><img src="assets/Like.png" alt="botão de curtir vídeo"></div>
+                <div class="dislike"><img src="assets/Dislike.png" alt="botão de não curtir vídeo"></div>
+                <div class="save"><img src="assets/Download.png" alt="botão de salvar vídeo"></div>
+                <div class="share"><img src="assets/Share.png" alt="botão de compartilhar vídeo"></div>
+            </div>
+
             <div class="video-details">8546 visualizações  Estreou em 08/08/2022</div>
             <div class="description"><p>Bora falar de front-end? No Getting Started de hoje, o Felipão trouxe pouco sobre os fundamentos e por onde começar a sua jornada na área. Seja com HTML, CSS ou Javascript, criar páginas e apps lindões vai ficar ainda mais simples! 😎</p></div>
         </main>
-        <aside class="sidebar">
-    <div class="video">
-        <img src="/assets/Video-1.png" alt="modelo de vídeo sugerido como próximo a ser reproduzido">
     </div>
+
+    <aside class="sidebar">
     <div class="video">
-        <img src="assets/Video-2.png" alt="modelo de vídeo sugerido como próximo a ser reproduzido">
-    </div>
-    <div class="video">
-        <img src="assets/Video-3.png" alt="modelo de vídeo sugerido como próximo a ser reproduzido">
+        <div class="video-img"><img src="assets/video1.png" alt="imagem de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
+        <div class="video-info"><img src="assets/info1.png" alt="informações de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
     </div>
     <div class="video">
-        <img src="assets/Video-4.png" alt="modelo de vídeo sugerido como próximo a ser reproduzido">
+        <div class="video-img"><img src="assets/video2.png" alt="imagem de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
+        <div class="video-info"><img src="assets/info2.png" alt="informações de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
     </div>
     <div class="video">
-        <img src="assets/Video-5.png" alt="modelo de vídeo sugerido como próximo a ser reproduzido">
+        <div class="video-img"><img src="assets/video3.png" alt="imagem de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
+        <div class="video-info"><img src="assets/info3.png" alt="informações de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
     </div>
     <div class="video">
-        <img src="assets/Video-6.png" alt="modelo de vídeo sugerido como próximo a ser reproduzido">
+        <div class="video-img"><img src="assets/video4.png" alt="imagem de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
+        <div class="video-info"><img src="assets/info4.png" alt="informações de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
     </div>
     <div class="video">
-        <img src="assets/Video-7.png" alt="modelo de vídeo sugerido como próximo a ser reproduzido">
+       <div class="video-img"><img src="assets/video5.png" alt="imagem de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
+    <div class="video-info"><img src="assets/info5.png" alt="informações de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
     </div>
     <div class="video">
-        <img src="assets/Video-8.png" alt="modelo de vídeo sugerido como próximo a ser reproduzido">
+        <div class="video-img"><img src="assets/video1.png" alt="imagem de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
+        <div class="video-info"><img src="assets/info1.png" alt="informações de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
     </div>
     <div class="video">
-        <img src="assets/Video-9.png" alt="modelo de vídeo sugerido como próximo a ser reproduzido">
+        <div class="video-img"><img src="assets/video2.png" alt="imagem de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
+        <div class="video-info"><img src="assets/info2.png" alt="informações de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
     </div>
-</aside>
+    <div class="video">
+        <div class="video-img"><img src="assets/video3.png" alt="imagem de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
+        <div class="video-info"><img src="assets/info3.png" alt="informações de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
     </div>
+    <div class="video">
+        <div class="video-img"><img src="assets/video4.png" alt="imagem de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
+        <div class="video-info"><img src="assets/info4.png" alt="informações de modelo de vídeo sugerido como próximo a ser reproduzido"></div>
+    </div>
+    </aside>
+</div>
+
 </body>
 </html>
